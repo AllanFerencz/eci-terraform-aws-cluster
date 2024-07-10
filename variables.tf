@@ -3,6 +3,7 @@ variable "domain" {
 }
 
 variable "environment" {
+  default = "override"
   type = string
 }
 
