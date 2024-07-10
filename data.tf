@@ -63,7 +63,7 @@ data "aws_ami" "this" {
 
   filter {
     name   = "architecture"
-    values = ["arm64"]
+    values = ["x86_64"]
   }
 }
 
